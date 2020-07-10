@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Logo WA</title>
+</head>
+<style>
+    body {
+        background: #25d366;
+    }
+
+    .wa {
+        background: white;
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+        position: relative;
+        z-index: 1;
+        padding: 15px;
+        text-align: center;
+        color: #fff;
+        box-shadow: 0 0 20px 0 #555;
+    }
+
+    .wa:after {
+        content: "";
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        border-right: solid 40px white;
+        border-top: solid 20px transparent;
+        border-bottom: solid 20px transparent;
+        transform:  rotate(-45deg);
+    }
+
+    .dalam {
+        background: #25d366;
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+        position: relative;
+        z-index: 2;
+    }
+    .dalam:after {
+        content: "";
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        border-right: solid 40px #25d366;
+        border-top: solid 20px transparent;
+        border-bottom: solid 20px transparent;
+        transform:  rotate(-45deg);
+    }
+    .fa {
+        font-size: 80pt;
+        margin-top: 25px;
+    }
+</style>
+<body>
+    <div class="wa">
+        <div class="dalam">
+            <i class="fa fa-phone"></i>
+        </div>
+    </div>
+    
+</body>
+</html>
